@@ -37,6 +37,7 @@ Convert the cleaned Amount string to a float.
 Store the (Type, float Amount, ID) as a tuple in a list.
 
 Return the final list of structured transaction tuples.
+
 ---
 
 ## 🚀 Technologies Used
