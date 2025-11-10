@@ -74,25 +74,19 @@ def extract_transactions(log_text: str) -> List[Tuple[str, float, str]]:
         
     return results
 ```
+
+---
+
 # Example Test
 log = 'TXN:CREDIT | AMT:1,250.50 | ID:AB123\\nTXN:DEBIT | AMT:500 | ID:XY789'
-extracted = extract_transactions(log)
-print(extracted)
-📈 Summary Metrics
-Based on the execution against the provided log file:
 
-Total Records Found: 54
+---
 
-Unique Transaction Types: 11
+##🖼️ Outputs
 
-Total Extracted Value: $136,177.37
+The final output is a list of structured tuples :
 
-Most Frequent Type: DEBIT (10 instances)
-
-🖼️ Outputs
-The final output is a list of structured tuples, ready for downstream processing:
-
-Sample Extracted Data
+**Sample Extracted Data**
 
 ('CREDIT', 1250.5, 'AB123')
 ('DEPOSIT', 12345.67, 'DEP12345')
