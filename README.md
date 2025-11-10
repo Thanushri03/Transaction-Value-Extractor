@@ -82,7 +82,7 @@ log = 'TXN:CREDIT | AMT:1,250.50 | ID:AB123\\nTXN:DEBIT | AMT:500 | ID:XY789'
 
 ---
 
-##🖼️ Outputs
+## 🖼️ Outputs
 
 The final output is a list of structured tuples :
 
